@@ -80,7 +80,7 @@ serde_json = "1.0"
 slog = { version = "2.7", features = [
   "dynamic-keys",
   "max_level_trace",
-  "release_max_level_info",
+  "release_max_level_trace",
 ] }
 slog-async = "2.6"
 slog-envlogger = "2.2.0"
